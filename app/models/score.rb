@@ -3,7 +3,11 @@ class Score < ApplicationRecord
   belongs_to :car
 
   def score_json
-    self.points
+    {
+      username: self.user.username,
+      car: self.car.name,
+      points: self.points
+    }
   end
 
   def self.score_json
