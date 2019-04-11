@@ -1,7 +1,8 @@
 class CarsController < ApplicationController
   def create
-    @car = Car.create(car_params)
-    if @car.valid?
+    @car = Car.new(car_params)
+    if @car && @car.valid?
+      @car.save
       render json: @car, status: :created
     else
       render json: { error: 'failed to create user' }, status: :not_acceptable
