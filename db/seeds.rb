@@ -8,10 +8,10 @@
 
 
 
-u1 = User.create(username: "Ryan", password: "$ALT")
-u2 = User.create(username: "Spike", password: "$ALT")
-u3 = User.create(username: "Dana", password: "$ALT")
-u4 = User.create(username: "Brian", password: "$ALT")
+u1 = User.create(username: "ryan", password: "$ALT")
+u2 = User.create(username: "spike", password: "$ALT")
+u3 = User.create(username: "dana", password: "$ALT")
+u4 = User.create(username: "brian", password: "$ALT")
 
 r1 = Car.create(name: "Red Car",
     up: "http://images.clipartpanda.com/car-top-view-clipart-red-racing-car-top-view-fe3a.png",
