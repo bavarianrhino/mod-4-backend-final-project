@@ -1,4 +1,9 @@
 class CarsController < ApplicationController
+  def index
+    @cars = Car.all
+    render json: @cars, status: :ok
+  end
+
   def create
     @car = Car.new(car_params)
     if @car && @car.valid?
