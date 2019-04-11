@@ -13,7 +13,8 @@ class Car < ApplicationRecord
       max_fuel: self.max_fuel,
       tread_wear: self.tread_wear,
       health: self.health,
-      scores: self.scores.where("user_id=?", self.user_id).score_json
+      # scores: self.scores.where("user_id=?", self.user_id).score_json
+      scores: self.scores.where("user_id=?", self.user_id).collect(&:points)
     }
   end
 
