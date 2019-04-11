@@ -8,7 +8,7 @@ class User < ApplicationRecord
       id: self.id,
       username: self.username,
       high_score: self.high_score,
-      cars: self.cars
+      cars: self.cars.car_json
     }
   end
 
