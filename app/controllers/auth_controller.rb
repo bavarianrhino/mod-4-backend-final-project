@@ -1,4 +1,6 @@
 class AuthController < ApplicationController
+  skip_before_action :authorized, only: [:login]
+
   def login
     # binding.pry
     @user = User.find_by(username: login_params[:username])

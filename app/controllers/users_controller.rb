@@ -1,4 +1,7 @@
 class UsersController < ApplicationController
+  skip_before_action :authorized, only: [:create, :index]
+
+  # THIS IS HERE FOR DEBUGGING ONLY
   def index
     @users = User.all
     render json: @users.user_json, status: :ok
