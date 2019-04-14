@@ -4,9 +4,14 @@ class UsersController < ApplicationController
     render json: @users.user_json, status: :ok
   end
 
-  def show
-    @user = User.find(params[:id])
-    render json: @user.user_json, status: :ok
+  # def show
+  #   @user = User.find(params[:id])
+  #   render json: @user.user_json, status: :ok
+  # end
+
+  def profile
+    # binding.pry
+    render json: { user: current_user.user_json }
   end
 
   def create
