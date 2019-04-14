@@ -1,6 +1,7 @@
 class AuthController < ApplicationController
   def login
-    @user = User.find_by(:username, login_params[:username])
+    # binding.pry
+    @user = User.find_by(username: login_params[:username])
     if @user && @user.authenticate(login_params[:password])
       # login user
       token = encode_token({ user_id: @user.id })
