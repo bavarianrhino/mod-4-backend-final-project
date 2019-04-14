@@ -1,4 +1,6 @@
 class ScoresController < ApplicationController
+  skip_before_action :authorized, only: [:index]
+
   def index
     @scores = Score.all
     render json: @scores.score_json, status: :ok
