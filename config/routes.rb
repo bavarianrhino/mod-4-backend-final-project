@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   resources :users
   resources :cars
   resources :scores
+  post '/login', to: 'auth#login', as: :login
 end
