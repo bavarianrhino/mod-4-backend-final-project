@@ -1,8 +1,8 @@
 class User < ApplicationRecord
   has_secure_password
   validates :username, uniqueness: { case_sensitive: false }
-  has_many :cars
-  has_many :scores
+  has_many :cars, dependent: :delete_all
+  has_many :scores, dependent: :delete_all
 
   def user_json
     {
