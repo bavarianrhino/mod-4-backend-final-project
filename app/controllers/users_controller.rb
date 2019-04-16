@@ -23,7 +23,7 @@ class UsersController < ApplicationController
       @user.save
       render json: @user, status: :created
     else
-      render json: { error: "could not create user" }, status: :not_acceptable
+      render json: { error: @user.errors.full_messages }, status: :not_acceptable
     end
   end
 
