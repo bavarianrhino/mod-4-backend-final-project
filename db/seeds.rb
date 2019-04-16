@@ -13,35 +13,46 @@ u2 = User.create(username: "spike", password: "$ALT")
 u3 = User.create(username: "dana", password: "$ALT")
 u4 = User.create(username: "brian", password: "$ALT")
 
-r1 = Car.create(name: "Red Car",
-    up: "http://images.clipartpanda.com/car-top-view-clipart-red-racing-car-top-view-fe3a.png",
-    down: "http://images.clipartpanda.com/car-top-view-clipart-red-racing-car-top-view-fe3a.png",
-    left: "http://images.clipartpanda.com/car-top-view-clipart-red-racing-car-top-view-fe3a.png",
-    right: "http://images.clipartpanda.com/car-top-view-clipart-red-racing-car-top-view-fe3a.png",
+Car.create(name: "Black Vintage",
+    up: '/black-vintage/black-vintage-up.png',
+    down: '/black-vintage/black-vintage-down.png',
+    left: '/black-vintage/black-vintage-left.png',
+    right: '/black-vintage/black-vintage-right.png',
     max_fuel: 80,
     tread_wear: 65,
     health: 75,
     user_id: 1)
 
-r1 = Car.create(name: "Black Car",
-    up: "http://www.sclance.com/pngs/car-top-view-png/car_top_view_png_219321.png",
-    down: "http://www.sclance.com/pngs/car-top-view-png/car_top_view_png_219321.png",
-    left: "http://www.sclance.com/pngs/car-top-view-png/car_top_view_png_219321.png",
-    right: "http://www.sclance.com/pngs/car-top-view-png/car_top_view_png_219321.png",
+Car.create(name: "Blue Police",
+    up: '/blue-police/blue-police-up.png',
+    down: '/blue-police/blue-police-down.png',
+    left: '/blue-police/blue-police-left.png',
+    right: '/blue-police/blue-police-right.png',
+    max_fuel: 70,
+    tread_wear: 75,
+    health: 85,
+    user_id: 1)
+
+Car.create(name: "Black Modern",
+    up: '/black-modern/black-modern-up.png',
+    down: '/black-modern/black-modern-down.png',
+    left: '/black-modern/black-modern-left.png',
+    right: '/black-modern/black-modern-right.png',
     max_fuel: 90,
     tread_wear: 55,
     health: 70,
     user_id: 2)
 
-r1 = Car.create(name: "Blue Car",
-    up: "https://cdn4.iconfinder.com/data/icons/race-cartoon/512/val42_2-128.png",
-    down: "https://cdn4.iconfinder.com/data/icons/race-cartoon/512/val42_2-128.png",
-    left: "https://cdn4.iconfinder.com/data/icons/race-cartoon/512/val42_2-128.png",
-    right: "https://cdn4.iconfinder.com/data/icons/race-cartoon/512/val42_2-128.png",
+Car.create(name: "Blue Bugatti",
+    up: '/blue-bugatti/blue-bugatti-up.png',
+    down: '/blue-bugatti/blue-bugatti-down.png',
+    left: '/blue-bugatti/blue-bugatti-left.png',
+    right: '/blue-bugatti/blue-bugatti-right.png',
     max_fuel: 70,
     tread_wear: 75,
     health: 80,
     user_id: 2)
+
 
 
 
