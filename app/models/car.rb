@@ -1,6 +1,6 @@
 class Car < ApplicationRecord
   belongs_to :user
-  has_many :scores, dependent: :delete_all
+  has_many :scores, dependent: :destroy
 
   def car_json
     {
