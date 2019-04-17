@@ -6,6 +6,7 @@ class Score < ApplicationRecord
     {
       username: self.user.username,
       car: self.car.name,
+      image: self.car.right,
       points: self.points
     }
   end
