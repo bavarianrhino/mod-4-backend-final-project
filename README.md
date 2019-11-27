@@ -17,6 +17,7 @@
 
 ## 🎬 Demo
 ![Recordit GIF](https://recordit.co/kHEtfAcsLN)
+![Recordit GIF](g.recordit.co/kHEtfAcsLN.gif)
 <div align="center">
     <p>Login provided using Bcrypt and JWT authentication.</p>
 </div>
