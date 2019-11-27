@@ -6,7 +6,7 @@
 
 <div align="center">
   <p>Login Credentials</p>
-  <a href="https://bavarianrhino.github.io/mod-4-frontend-final-project/"><img src="/public/images/logo.png" title="Car World" alt="Car World"></a>
+  <img src="https://github.com/bavarianrhino/mod-4-frontend-final-project/blob/master/src/images/logo.png" title="Car World" alt="Car World">
   <p>USERNAME: guest</p>
   <p>PASSWORD: 1234</p>
 </div>
@@ -17,7 +17,7 @@
 
 ## 🎬 Demo
 <div align="center">
-    <img src="/public/images/demo.gif" title="Demo User Flow" alt="Demo User Flow">
+    <img src="https://github.com/bavarianrhino/mod-4-frontend-final-project/blob/master/src/images/demo.gif" title="Demo User Flow" alt="">
 </div>
 
 ## 👤 Team
