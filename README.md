@@ -6,7 +6,7 @@
 
 <div align="center">
   <p>Login Credentials</p>
-  <a href="https://bavarianrhino.github.io/vehicle_search_react_frontend/"><img src="/public/images/logo.png" title="Car World" alt="Car World"></a>
+  <a href="https://bavarianrhino.github.io/mod-4-frontend-final-project/"><img src="/public/images/logo.png" title="Car World" alt="Car World"></a>
   <p>USERNAME: guest</p>
   <p>PASSWORD: 1234</p>
 </div>
@@ -43,7 +43,6 @@
 - React.js, React-Router-Dom
 - JavaScript, ES6
 - Semantic-UI-React
-- ****ADD HERE****
 
 🌘<b>Back-End</b>
 - PostgreSQL Database
