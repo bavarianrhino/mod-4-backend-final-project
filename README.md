@@ -5,8 +5,8 @@
 [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org) 
 
 <div align="center">
-  <a href="https://bavarianrhino.github.io/vehicle_search_react_frontend/"><img src="https://github.com/bavarianrhino/mod-4-frontend-final-project/public/logo.png" title="Car World" alt="Car World"></a>
   <p>Login Credentials</p>
+  <a href="https://bavarianrhino.github.io/vehicle_search_react_frontend/"><img src="/public/images/logo.png" title="Car World" alt="Car World"></a>
   <p>USERNAME: guest</p>
   <p>PASSWORD: 1234</p>
 </div>
@@ -16,10 +16,8 @@
 
 
 ## 🎬 Demo
-![Recordit GIF](https://recordit.co/kHEtfAcsLN)
-![Recordit GIF](g.recordit.co/kHEtfAcsLN.gif)
 <div align="center">
-    <p>Login provided using Bcrypt and JWT authentication.</p>
+    <img src="/public/images/demo.gif" title="Demo User Flow" alt="Demo User Flow">
 </div>
 
 ## 👤 Team
